@@ -18,7 +18,7 @@
 ## 🖼️ Screenshots
 
 **Home Screen**  
-![Home](./assets/screenshots/home.png)
+![Home](./assets/screenshots/homescreen.png)
 
 **Crossed Paths Screen**  
 ![Crossed Paths](./assets/screenshots/scanscreen.png)
