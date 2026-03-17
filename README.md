@@ -21,13 +21,13 @@
 ![Home](./assets/screenshots/home.png)
 
 **Crossed Paths Screen**  
-![Crossed Paths](./assets/screenshots/crossed_paths.png)
+![Crossed Paths](./assets/screenshots/scanscreen.png)
 
 **Login Screen**  
-![Login](./assets/screenshots/login.png)
+![Login](./assets/screenshots/loginscreen.png)
 
 **Sign Up Screen**  
-![Sign Up](./assets/screenshots/signup.png)
+![Sign Up](./assets/screenshots/signupscreen.png)
 
 ---
 
