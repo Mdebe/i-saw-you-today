@@ -9,12 +9,14 @@ import HomeScreen from "./screens/HomeScreen";
 import CrossedPathsScreen from "./screens/CrossedPathsScreen";
 import ProfileScreen from "./screens/ProfileScreen";
 import MessagesScreen from "./screens/MessagesScreen";
+import ProfileSetupScreen from "./screens/ProfileSetupScreen";
  
 
 export type RootStackParamList = {
   Splash: undefined;
   Login: undefined;
   SignUp: undefined;
+  ProfileSetup: undefined;
   ForgotPassword: undefined;
   Home: undefined;
   CrossedPaths: undefined;
@@ -31,6 +33,7 @@ export default function App() {
         <Stack.Screen name="Splash" component={SplashScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="SignUp" component={SignUpScreen} />
+        <Stack.Screen name="ProfileSetup" component={ProfileSetupScreen} />
         <Stack.Screen name="ForgotPassword" component={ForgotPasswordScreen} />
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="CrossedPaths" component={CrossedPathsScreen} />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"; 
 import {
   View,
   Text,
@@ -66,8 +66,9 @@ export default function SignUpScreen({ navigation }: Props) {
         return;
       }
 
-      Alert.alert("Success", "Account created successfully!");
-      navigation.replace("Home");
+      Alert.alert("Success", "Account created! Complete your profile.");
+      // Redirect new user to Profile Setup screen
+      navigation.replace("ProfileSetup");
     } catch (err) {
       console.log(err);
       Alert.alert("Unexpected Error", "Something went wrong.");
